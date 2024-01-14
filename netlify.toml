@@ -1,0 +1,12 @@
+[build]
+  publish = "public/"
+  # Default build command.
+  command = "hugo --debug --minify --baseURL $DEPLOY_PRIME_URL"
+[build.environment]
+  NODE_ENV = "production"
+  # NODE_VERSION = 
+  # NPM_VERSION = 
+  # NPM_FLAGS = 
+
+[context.production.environment]
+  HUGO_VERSION = "0.121.2"
