@@ -1,5 +1,4 @@
 [build]
-  publish = "public/"
   # Default build command.
   command = "hugo --debug --minify --baseURL $DEPLOY_PRIME_URL"
 [build.environment]

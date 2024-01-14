@@ -13,7 +13,7 @@ pygmentsCodefencesGuessSyntax = true
 
 [Params]
 #  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
-  subtitle = "Build a beautiful and simple website in minutes"
+  subtitle = "Explore the boundless wisdom of ancient Vedic teachings at Matchless Wisdom. Our blog offers insightful articles on Vedic philosophy and spiritual well-being."
   mainSections = ["post","posts"]
   logo = "img/matchless-wisdom-logo-bg.png"
   favicon = "img/matchless-wisdom-logo-bg.png"
@@ -31,3 +31,13 @@ pygmentsCodefencesGuessSyntax = true
 [Author]
   # Set only your "username" for default hosts and full URLs otherwise (e.g., "https://MyGitLab.org/username")
   name = "Matchless Wisdom"
+
+[[menu.main]]
+    name = "Blog"
+    url = ""
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "pages/about/"
+    weight = 3
