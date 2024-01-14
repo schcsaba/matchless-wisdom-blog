@@ -27,6 +27,7 @@ pygmentsCodefencesGuessSyntax = true
   socialShare = true
   delayDisqus = true
   showRelatedPosts = true
+  disqusShortname = "matchlesswisdom-com"
 
 [Author]
   # Set only your "username" for default hosts and full URLs otherwise (e.g., "https://MyGitLab.org/username")
@@ -39,5 +40,10 @@ pygmentsCodefencesGuessSyntax = true
 
 [[menu.main]]
     name = "About"
-    url = "pages/about/"
+    url = "about/"
     weight = 3
+
+[[menu.main]]
+    name = "Contact"
+    url = "contact/"
+    weight = 5
