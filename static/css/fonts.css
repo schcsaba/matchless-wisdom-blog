@@ -1,0 +1,33 @@
+/* --- Fonts --- */
+
+@font-face {
+    font-family: 'STIX Two Text';
+    font-style: normal;
+    src: url('../fonts/STIX_Two_Text/STIXTwoText-VariableFont_wght.ttf'); /* IE9 Compat Modes */
+    src: local('STIX Two Text'), local('STIX-Two-Text'),
+        url('../fonts/STIX_Two_Text/STIXTwoText-VariableFont_wght.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'STIX Two Text';
+    font-style: italic;
+    src: url('../fonts/STIX_Two_Text/STIXTwoText-Italic-VariableFont_wght.ttf'); /* IE9 Compat Modes */
+    src: local('STIX Two Text Italic'), local('STIX-Two-Text-Italic'),
+        url('../fonts/STIX_Two_Text/STIXTwoText-Italic-VariableFont_wght.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    src: url('../fonts/Noto_Sans/NotoSans-VariableFont_wdth\,wght.ttf'); /* IE9 Compat Modes */
+    src: local('Noto Sans'), local('Noto-Sans'),
+        url('../fonts/Noto_Sans/NotoSans-VariableFont_wdth\,wght.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    font-style: italic;
+    src: url('../fonts/Noto_Sans/NotoSans-Italic-VariableFont_wdth\,wght.ttf'); /* IE9 Compat Modes */
+    src: local('Noto Sans Italic'), local('Noto-Sans-Italic'),
+        url('../fonts/Noto_Sans/NotoSans-Italic-VariableFont_wdth\,wght.ttf') format('truetype'), /* Safari, Android, iOS */
+}
